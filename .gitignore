@@ -1,0 +1,35 @@
+# Dependencias (se reinstalan con: npm install)
+node_modules/
+
+# Compilados
+dist/
+build/
+*.local
+
+# Generados automáticamente por Vite
+src/components.d.ts
+.vite/
+*.tsbuildinfo
+
+# Pruebas
+coverage/
+.vitest-cache/
+
+# Variables de entorno y llaves (nunca subir)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor y sistema
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
